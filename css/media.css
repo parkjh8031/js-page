@@ -1,0 +1,26 @@
+/* desktop */
+@media all and (min-width: 1024px){
+    .header > .menu-brn{
+        display: none;
+    }
+}
+
+/* tablet */
+@media all and (max-width: 1023px){
+    .sidemenu{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+}
+
+/* mobile */
+@media all and (max-width: 767px){
+    .sidemenu{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+}
